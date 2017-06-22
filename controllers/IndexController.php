@@ -13,6 +13,9 @@ use app\controllers\CommonController;
 
 class IndexController extends CommonController
 {
+    /*
+     * 首页
+     * */
     public function actionIndex()
     {
         $this->layout = "layout1";
