@@ -17,6 +17,9 @@ use Yii;
 
 class CommonController extends Controller
 {
+    /*
+     * 入口方法
+     * */
     public function init()
     {
         $menu = Category::getMenu();
